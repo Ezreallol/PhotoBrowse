@@ -1,0 +1,778 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E07AF8F1E2386BA00F375E2 /* LLActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E07AF8E1E2386BA00F375E2 /* LLActionSheet.m */; };
+		0E1347781E0BCB1D007B904F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1347771E0BCB1D007B904F /* main.m */; };
+		0E13477B1E0BCB1D007B904F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E13477A1E0BCB1D007B904F /* AppDelegate.m */; };
+		0E1347811E0BCB1D007B904F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E13477F1E0BCB1D007B904F /* Main.storyboard */; };
+		0E1347831E0BCB1D007B904F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E1347821E0BCB1D007B904F /* Assets.xcassets */; };
+		0E1347861E0BCB1D007B904F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E1347841E0BCB1D007B904F /* LaunchScreen.storyboard */; };
+		0E1347911E0BCB1D007B904F /* FirendCircleOfPtotoBrowseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1347901E0BCB1D007B904F /* FirendCircleOfPtotoBrowseTests.m */; };
+		0E13479C1E0BCB1D007B904F /* FirendCircleOfPtotoBrowseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E13479B1E0BCB1D007B904F /* FirendCircleOfPtotoBrowseUITests.m */; };
+		0E1A1EC21E0D0BC5005E9907 /* FCHBrowserImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1A1EC11E0D0BC5005E9907 /* FCHBrowserImageView.m */; };
+		0E1A1EC81E0D0F9F005E9907 /* FCHWaitingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1A1EC71E0D0F9F005E9907 /* FCHWaitingView.m */; };
+		0E4900721E10E77500DFE499 /* FCHPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4900711E10E77500DFE499 /* FCHPhotoBrowser.m */; };
+		0E7BD5F21E0BD1AE00542D8D /* FirendcirclePhotoShowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7BD5F11E0BD1AE00542D8D /* FirendcirclePhotoShowController.m */; };
+		0E7BD5F51E0BD24200542D8D /* DemoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7BD5F41E0BD24200542D8D /* DemoCell.m */; };
+		0E939D611E2381AD00701360 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E939D601E2381AD00701360 /* UIView+Frame.m */; };
+		0EFA337C1E14AE6900AB6A42 /* FCHPhotoGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFA337B1E14AE6900AB6A42 /* FCHPhotoGroup.m */; };
+		0EFA337F1E14AEC200AB6A42 /* FCHPhotoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EFA337E1E14AEC200AB6A42 /* FCHPhotoItem.m */; };
+		4E16F9F17D00C26C2E1090AA /* libPods-FirendCircleOfPtotoBrowseUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48DEC321E85EDA33FE5A4F2E /* libPods-FirendCircleOfPtotoBrowseUITests.a */; };
+		A7DD5F5D8EF995D6F3BD3F83 /* libPods-FirendCircleOfPtotoBrowse.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86CFB9A36672EF410797D80E /* libPods-FirendCircleOfPtotoBrowse.a */; };
+		CB16555437B537F3945D8D5B /* libPods-FirendCircleOfPtotoBrowseTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E831F93B77AE78C6429BC3 /* libPods-FirendCircleOfPtotoBrowseTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E13478D1E0BCB1D007B904F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E13476B1E0BCB1C007B904F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E1347721E0BCB1D007B904F;
+			remoteInfo = FirendCircleOfPtotoBrowse;
+		};
+		0E1347981E0BCB1D007B904F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E13476B1E0BCB1C007B904F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E1347721E0BCB1D007B904F;
+			remoteInfo = FirendCircleOfPtotoBrowse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03E831F93B77AE78C6429BC3 /* libPods-FirendCircleOfPtotoBrowseTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FirendCircleOfPtotoBrowseTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E07AF8D1E2386BA00F375E2 /* LLActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLActionSheet.h; sourceTree = "<group>"; };
+		0E07AF8E1E2386BA00F375E2 /* LLActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLActionSheet.m; sourceTree = "<group>"; };
+		0E1347731E0BCB1D007B904F /* FirendCircleOfPtotoBrowse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirendCircleOfPtotoBrowse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E1347771E0BCB1D007B904F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E1347791E0BCB1D007B904F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0E13477A1E0BCB1D007B904F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0E1347801E0BCB1D007B904F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0E1347821E0BCB1D007B904F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0E1347851E0BCB1D007B904F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0E1347871E0BCB1D007B904F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E13478C1E0BCB1D007B904F /* FirendCircleOfPtotoBrowseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirendCircleOfPtotoBrowseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E1347901E0BCB1D007B904F /* FirendCircleOfPtotoBrowseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirendCircleOfPtotoBrowseTests.m; sourceTree = "<group>"; };
+		0E1347921E0BCB1D007B904F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E1347971E0BCB1D007B904F /* FirendCircleOfPtotoBrowseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirendCircleOfPtotoBrowseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E13479B1E0BCB1D007B904F /* FirendCircleOfPtotoBrowseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirendCircleOfPtotoBrowseUITests.m; sourceTree = "<group>"; };
+		0E13479D1E0BCB1D007B904F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E1A1EBF1E0D0B44005E9907 /* FCHPhotoBrowserConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FCHPhotoBrowserConfig.h; path = ../../../../acon/Desktop/FirendCircleOfPtotoBrowse/FirendCircleOfPtotoBrowse/FCHPhotoBrowserConfig.h; sourceTree = "<group>"; };
+		0E1A1EC01E0D0BC5005E9907 /* FCHBrowserImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FCHBrowserImageView.h; path = ../../../../acon/Desktop/FirendCircleOfPtotoBrowse/FirendCircleOfPtotoBrowse/FCHBrowserImageView.h; sourceTree = "<group>"; };
+		0E1A1EC11E0D0BC5005E9907 /* FCHBrowserImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FCHBrowserImageView.m; path = ../../../../acon/Desktop/FirendCircleOfPtotoBrowse/FirendCircleOfPtotoBrowse/FCHBrowserImageView.m; sourceTree = "<group>"; };
+		0E1A1EC61E0D0F9F005E9907 /* FCHWaitingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FCHWaitingView.h; path = ../../../../acon/Desktop/FirendCircleOfPtotoBrowse/FirendCircleOfPtotoBrowse/FCHWaitingView.h; sourceTree = "<group>"; };
+		0E1A1EC71E0D0F9F005E9907 /* FCHWaitingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FCHWaitingView.m; path = ../../../../acon/Desktop/FirendCircleOfPtotoBrowse/FirendCircleOfPtotoBrowse/FCHWaitingView.m; sourceTree = "<group>"; };
+		0E4900701E10E77500DFE499 /* FCHPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FCHPhotoBrowser.h; path = ../../../../acon/Desktop/FirendCircleOfPtotoBrowse/FirendCircleOfPtotoBrowse/FCHPhotoBrowser.h; sourceTree = "<group>"; };
+		0E4900711E10E77500DFE499 /* FCHPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FCHPhotoBrowser.m; path = ../../../../acon/Desktop/FirendCircleOfPtotoBrowse/FirendCircleOfPtotoBrowse/FCHPhotoBrowser.m; sourceTree = "<group>"; };
+		0E7BD5F01E0BD1AE00542D8D /* FirendcirclePhotoShowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirendcirclePhotoShowController.h; path = ../../../../acon/Desktop/FirendCircleOfPtotoBrowse/FirendCircleOfPtotoBrowse/FirendcirclePhotoShowController.h; sourceTree = "<group>"; };
+		0E7BD5F11E0BD1AE00542D8D /* FirendcirclePhotoShowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirendcirclePhotoShowController.m; path = ../../../../acon/Desktop/FirendCircleOfPtotoBrowse/FirendCircleOfPtotoBrowse/FirendcirclePhotoShowController.m; sourceTree = "<group>"; };
+		0E7BD5F31E0BD24200542D8D /* DemoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DemoCell.h; path = ../../../../acon/Desktop/FirendCircleOfPtotoBrowse/FirendCircleOfPtotoBrowse/DemoCell.h; sourceTree = "<group>"; };
+		0E7BD5F41E0BD24200542D8D /* DemoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DemoCell.m; path = ../../../../acon/Desktop/FirendCircleOfPtotoBrowse/FirendCircleOfPtotoBrowse/DemoCell.m; sourceTree = "<group>"; };
+		0E939D5F1E2381AD00701360 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Frame.h"; path = "../../../../acon/Desktop/FirendCircleOfPtotoBrowse/FirendCircleOfPtotoBrowse/UIView+Frame.h"; sourceTree = "<group>"; };
+		0E939D601E2381AD00701360 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Frame.m"; path = "../../../../acon/Desktop/FirendCircleOfPtotoBrowse/FirendCircleOfPtotoBrowse/UIView+Frame.m"; sourceTree = "<group>"; };
+		0EFA337A1E14AE6900AB6A42 /* FCHPhotoGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FCHPhotoGroup.h; path = ../../../../acon/Desktop/FirendCircleOfPtotoBrowse/FirendCircleOfPtotoBrowse/FCHPhotoGroup.h; sourceTree = "<group>"; };
+		0EFA337B1E14AE6900AB6A42 /* FCHPhotoGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FCHPhotoGroup.m; path = ../../../../acon/Desktop/FirendCircleOfPtotoBrowse/FirendCircleOfPtotoBrowse/FCHPhotoGroup.m; sourceTree = "<group>"; };
+		0EFA337D1E14AEC200AB6A42 /* FCHPhotoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FCHPhotoItem.h; path = ../../../../acon/Desktop/FirendCircleOfPtotoBrowse/FirendCircleOfPtotoBrowse/FCHPhotoItem.h; sourceTree = "<group>"; };
+		0EFA337E1E14AEC200AB6A42 /* FCHPhotoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FCHPhotoItem.m; path = ../../../../acon/Desktop/FirendCircleOfPtotoBrowse/FirendCircleOfPtotoBrowse/FCHPhotoItem.m; sourceTree = "<group>"; };
+		2E41D0EA255D140662152E70 /* Pods-FirendCircleOfPtotoBrowse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirendCircleOfPtotoBrowse.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirendCircleOfPtotoBrowse/Pods-FirendCircleOfPtotoBrowse.debug.xcconfig"; sourceTree = "<group>"; };
+		48DEC321E85EDA33FE5A4F2E /* libPods-FirendCircleOfPtotoBrowseUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FirendCircleOfPtotoBrowseUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F13CEA37108E016ABA984D9 /* Pods-FirendCircleOfPtotoBrowseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirendCircleOfPtotoBrowseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirendCircleOfPtotoBrowseTests/Pods-FirendCircleOfPtotoBrowseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6036C0083A551B68573265EA /* Pods-FirendCircleOfPtotoBrowseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirendCircleOfPtotoBrowseTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirendCircleOfPtotoBrowseTests/Pods-FirendCircleOfPtotoBrowseTests.release.xcconfig"; sourceTree = "<group>"; };
+		86CFB9A36672EF410797D80E /* libPods-FirendCircleOfPtotoBrowse.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FirendCircleOfPtotoBrowse.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E7C6E25ED84BE809BF12196 /* Pods-FirendCircleOfPtotoBrowseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirendCircleOfPtotoBrowseUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirendCircleOfPtotoBrowseUITests/Pods-FirendCircleOfPtotoBrowseUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C6A7B3953F5851B0EC4A7948 /* Pods-FirendCircleOfPtotoBrowse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirendCircleOfPtotoBrowse.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirendCircleOfPtotoBrowse/Pods-FirendCircleOfPtotoBrowse.release.xcconfig"; sourceTree = "<group>"; };
+		DBB05E8E17B29D36E6C99A63 /* Pods-FirendCircleOfPtotoBrowseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirendCircleOfPtotoBrowseUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirendCircleOfPtotoBrowseUITests/Pods-FirendCircleOfPtotoBrowseUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E1347701E0BCB1D007B904F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7DD5F5D8EF995D6F3BD3F83 /* libPods-FirendCircleOfPtotoBrowse.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E1347891E0BCB1D007B904F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB16555437B537F3945D8D5B /* libPods-FirendCircleOfPtotoBrowseTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E1347941E0BCB1D007B904F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E16F9F17D00C26C2E1090AA /* libPods-FirendCircleOfPtotoBrowseUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07A07977CB7A6C488E3A23D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E41D0EA255D140662152E70 /* Pods-FirendCircleOfPtotoBrowse.debug.xcconfig */,
+				C6A7B3953F5851B0EC4A7948 /* Pods-FirendCircleOfPtotoBrowse.release.xcconfig */,
+				5F13CEA37108E016ABA984D9 /* Pods-FirendCircleOfPtotoBrowseTests.debug.xcconfig */,
+				6036C0083A551B68573265EA /* Pods-FirendCircleOfPtotoBrowseTests.release.xcconfig */,
+				DBB05E8E17B29D36E6C99A63 /* Pods-FirendCircleOfPtotoBrowseUITests.debug.xcconfig */,
+				9E7C6E25ED84BE809BF12196 /* Pods-FirendCircleOfPtotoBrowseUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0E13476A1E0BCB1C007B904F = {
+			isa = PBXGroup;
+			children = (
+				0E1347751E0BCB1D007B904F /* FirendCircleOfPtotoBrowse */,
+				0E13478F1E0BCB1D007B904F /* FirendCircleOfPtotoBrowseTests */,
+				0E13479A1E0BCB1D007B904F /* FirendCircleOfPtotoBrowseUITests */,
+				0E1347741E0BCB1D007B904F /* Products */,
+				07A07977CB7A6C488E3A23D4 /* Pods */,
+				29B19F3B3940407BEE6424A8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0E1347741E0BCB1D007B904F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E1347731E0BCB1D007B904F /* FirendCircleOfPtotoBrowse.app */,
+				0E13478C1E0BCB1D007B904F /* FirendCircleOfPtotoBrowseTests.xctest */,
+				0E1347971E0BCB1D007B904F /* FirendCircleOfPtotoBrowseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E1347751E0BCB1D007B904F /* FirendCircleOfPtotoBrowse */ = {
+			isa = PBXGroup;
+			children = (
+				0E07AF8D1E2386BA00F375E2 /* LLActionSheet.h */,
+				0E07AF8E1E2386BA00F375E2 /* LLActionSheet.m */,
+				0E1347791E0BCB1D007B904F /* AppDelegate.h */,
+				0E13477A1E0BCB1D007B904F /* AppDelegate.m */,
+				0E7BD5F01E0BD1AE00542D8D /* FirendcirclePhotoShowController.h */,
+				0E7BD5F11E0BD1AE00542D8D /* FirendcirclePhotoShowController.m */,
+				0E7BD5F31E0BD24200542D8D /* DemoCell.h */,
+				0E7BD5F41E0BD24200542D8D /* DemoCell.m */,
+				0EFA337A1E14AE6900AB6A42 /* FCHPhotoGroup.h */,
+				0EFA337B1E14AE6900AB6A42 /* FCHPhotoGroup.m */,
+				0EFA337D1E14AEC200AB6A42 /* FCHPhotoItem.h */,
+				0EFA337E1E14AEC200AB6A42 /* FCHPhotoItem.m */,
+				0E1A1EC01E0D0BC5005E9907 /* FCHBrowserImageView.h */,
+				0E1A1EC11E0D0BC5005E9907 /* FCHBrowserImageView.m */,
+				0E4900701E10E77500DFE499 /* FCHPhotoBrowser.h */,
+				0E4900711E10E77500DFE499 /* FCHPhotoBrowser.m */,
+				0E1A1EC61E0D0F9F005E9907 /* FCHWaitingView.h */,
+				0E1A1EC71E0D0F9F005E9907 /* FCHWaitingView.m */,
+				0E939D5F1E2381AD00701360 /* UIView+Frame.h */,
+				0E939D601E2381AD00701360 /* UIView+Frame.m */,
+				0E1A1EBF1E0D0B44005E9907 /* FCHPhotoBrowserConfig.h */,
+				0E1A1EBB1E0D0A93005E9907 /* Model */,
+				0E13477F1E0BCB1D007B904F /* Main.storyboard */,
+				0E1347821E0BCB1D007B904F /* Assets.xcassets */,
+				0E1347841E0BCB1D007B904F /* LaunchScreen.storyboard */,
+				0E1347871E0BCB1D007B904F /* Info.plist */,
+				0E1347761E0BCB1D007B904F /* Supporting Files */,
+			);
+			path = FirendCircleOfPtotoBrowse;
+			sourceTree = "<group>";
+		};
+		0E1347761E0BCB1D007B904F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E1347771E0BCB1D007B904F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0E13478F1E0BCB1D007B904F /* FirendCircleOfPtotoBrowseTests */ = {
+			isa = PBXGroup;
+			children = (
+				0E1347901E0BCB1D007B904F /* FirendCircleOfPtotoBrowseTests.m */,
+				0E1347921E0BCB1D007B904F /* Info.plist */,
+			);
+			path = FirendCircleOfPtotoBrowseTests;
+			sourceTree = "<group>";
+		};
+		0E13479A1E0BCB1D007B904F /* FirendCircleOfPtotoBrowseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0E13479B1E0BCB1D007B904F /* FirendCircleOfPtotoBrowseUITests.m */,
+				0E13479D1E0BCB1D007B904F /* Info.plist */,
+			);
+			path = FirendCircleOfPtotoBrowseUITests;
+			sourceTree = "<group>";
+		};
+		0E1A1EBB1E0D0A93005E9907 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			path = ../../../../acon/Desktop/FirendCircleOfPtotoBrowse/FirendCircleOfPtotoBrowse/Model;
+			sourceTree = "<group>";
+		};
+		29B19F3B3940407BEE6424A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86CFB9A36672EF410797D80E /* libPods-FirendCircleOfPtotoBrowse.a */,
+				03E831F93B77AE78C6429BC3 /* libPods-FirendCircleOfPtotoBrowseTests.a */,
+				48DEC321E85EDA33FE5A4F2E /* libPods-FirendCircleOfPtotoBrowseUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E1347721E0BCB1D007B904F /* FirendCircleOfPtotoBrowse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E1347A01E0BCB1D007B904F /* Build configuration list for PBXNativeTarget "FirendCircleOfPtotoBrowse" */;
+			buildPhases = (
+				CDD715E9B93634DCB418F850 /* [CP] Check Pods Manifest.lock */,
+				0E13476F1E0BCB1D007B904F /* Sources */,
+				0E1347701E0BCB1D007B904F /* Frameworks */,
+				0E1347711E0BCB1D007B904F /* Resources */,
+				3B843E85506D09CC66915B24 /* [CP] Embed Pods Frameworks */,
+				A9747AF2DA1D3C90878994E4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirendCircleOfPtotoBrowse;
+			productName = FirendCircleOfPtotoBrowse;
+			productReference = 0E1347731E0BCB1D007B904F /* FirendCircleOfPtotoBrowse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0E13478B1E0BCB1D007B904F /* FirendCircleOfPtotoBrowseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E1347A31E0BCB1D007B904F /* Build configuration list for PBXNativeTarget "FirendCircleOfPtotoBrowseTests" */;
+			buildPhases = (
+				E6DA33130204D777C08B7D92 /* [CP] Check Pods Manifest.lock */,
+				0E1347881E0BCB1D007B904F /* Sources */,
+				0E1347891E0BCB1D007B904F /* Frameworks */,
+				0E13478A1E0BCB1D007B904F /* Resources */,
+				37EE2C25D6C18707D08E267B /* [CP] Embed Pods Frameworks */,
+				D5052C308A221A7A2357AEE0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E13478E1E0BCB1D007B904F /* PBXTargetDependency */,
+			);
+			name = FirendCircleOfPtotoBrowseTests;
+			productName = FirendCircleOfPtotoBrowseTests;
+			productReference = 0E13478C1E0BCB1D007B904F /* FirendCircleOfPtotoBrowseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0E1347961E0BCB1D007B904F /* FirendCircleOfPtotoBrowseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E1347A61E0BCB1D007B904F /* Build configuration list for PBXNativeTarget "FirendCircleOfPtotoBrowseUITests" */;
+			buildPhases = (
+				0C3802242C7B99B705AE9172 /* [CP] Check Pods Manifest.lock */,
+				0E1347931E0BCB1D007B904F /* Sources */,
+				0E1347941E0BCB1D007B904F /* Frameworks */,
+				0E1347951E0BCB1D007B904F /* Resources */,
+				EF41CB0B6A7F2DF400129FBC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E1347991E0BCB1D007B904F /* PBXTargetDependency */,
+			);
+			name = FirendCircleOfPtotoBrowseUITests;
+			productName = FirendCircleOfPtotoBrowseUITests;
+			productReference = 0E1347971E0BCB1D007B904F /* FirendCircleOfPtotoBrowseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E13476B1E0BCB1C007B904F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = FCH;
+				TargetAttributes = {
+					0E1347721E0BCB1D007B904F = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 5NPESW33S2;
+						ProvisioningStyle = Automatic;
+					};
+					0E13478B1E0BCB1D007B904F = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 5NPESW33S2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0E1347721E0BCB1D007B904F;
+					};
+					0E1347961E0BCB1D007B904F = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 5NPESW33S2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0E1347721E0BCB1D007B904F;
+					};
+				};
+			};
+			buildConfigurationList = 0E13476E1E0BCB1C007B904F /* Build configuration list for PBXProject "FirendCircleOfPtotoBrowse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E13476A1E0BCB1C007B904F;
+			productRefGroup = 0E1347741E0BCB1D007B904F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E1347721E0BCB1D007B904F /* FirendCircleOfPtotoBrowse */,
+				0E13478B1E0BCB1D007B904F /* FirendCircleOfPtotoBrowseTests */,
+				0E1347961E0BCB1D007B904F /* FirendCircleOfPtotoBrowseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E1347711E0BCB1D007B904F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E1347861E0BCB1D007B904F /* LaunchScreen.storyboard in Resources */,
+				0E1347831E0BCB1D007B904F /* Assets.xcassets in Resources */,
+				0E1347811E0BCB1D007B904F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E13478A1E0BCB1D007B904F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E1347951E0BCB1D007B904F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C3802242C7B99B705AE9172 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		37EE2C25D6C18707D08E267B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirendCircleOfPtotoBrowseTests/Pods-FirendCircleOfPtotoBrowseTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B843E85506D09CC66915B24 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirendCircleOfPtotoBrowse/Pods-FirendCircleOfPtotoBrowse-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9747AF2DA1D3C90878994E4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirendCircleOfPtotoBrowse/Pods-FirendCircleOfPtotoBrowse-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDD715E9B93634DCB418F850 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D5052C308A221A7A2357AEE0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirendCircleOfPtotoBrowseTests/Pods-FirendCircleOfPtotoBrowseTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6DA33130204D777C08B7D92 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EF41CB0B6A7F2DF400129FBC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FirendCircleOfPtotoBrowseUITests/Pods-FirendCircleOfPtotoBrowseUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E13476F1E0BCB1D007B904F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E939D611E2381AD00701360 /* UIView+Frame.m in Sources */,
+				0E7BD5F21E0BD1AE00542D8D /* FirendcirclePhotoShowController.m in Sources */,
+				0EFA337C1E14AE6900AB6A42 /* FCHPhotoGroup.m in Sources */,
+				0E07AF8F1E2386BA00F375E2 /* LLActionSheet.m in Sources */,
+				0E13477B1E0BCB1D007B904F /* AppDelegate.m in Sources */,
+				0E7BD5F51E0BD24200542D8D /* DemoCell.m in Sources */,
+				0E1347781E0BCB1D007B904F /* main.m in Sources */,
+				0E1A1EC81E0D0F9F005E9907 /* FCHWaitingView.m in Sources */,
+				0E1A1EC21E0D0BC5005E9907 /* FCHBrowserImageView.m in Sources */,
+				0E4900721E10E77500DFE499 /* FCHPhotoBrowser.m in Sources */,
+				0EFA337F1E14AEC200AB6A42 /* FCHPhotoItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E1347881E0BCB1D007B904F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E1347911E0BCB1D007B904F /* FirendCircleOfPtotoBrowseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E1347931E0BCB1D007B904F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E13479C1E0BCB1D007B904F /* FirendCircleOfPtotoBrowseUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E13478E1E0BCB1D007B904F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E1347721E0BCB1D007B904F /* FirendCircleOfPtotoBrowse */;
+			targetProxy = 0E13478D1E0BCB1D007B904F /* PBXContainerItemProxy */;
+		};
+		0E1347991E0BCB1D007B904F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E1347721E0BCB1D007B904F /* FirendCircleOfPtotoBrowse */;
+			targetProxy = 0E1347981E0BCB1D007B904F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0E13477F1E0BCB1D007B904F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E1347801E0BCB1D007B904F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0E1347841E0BCB1D007B904F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E1347851E0BCB1D007B904F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E13479E1E0BCB1D007B904F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0E13479F1E0BCB1D007B904F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E1347A11E0BCB1D007B904F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E41D0EA255D140662152E70 /* Pods-FirendCircleOfPtotoBrowse.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5NPESW33S2;
+				INFOPLIST_FILE = FirendCircleOfPtotoBrowse/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ezreal.feng.com.FirendCircleOfPtotoBrowse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0E1347A21E0BCB1D007B904F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6A7B3953F5851B0EC4A7948 /* Pods-FirendCircleOfPtotoBrowse.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5NPESW33S2;
+				INFOPLIST_FILE = FirendCircleOfPtotoBrowse/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ezreal.feng.com.FirendCircleOfPtotoBrowse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0E1347A41E0BCB1D007B904F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F13CEA37108E016ABA984D9 /* Pods-FirendCircleOfPtotoBrowseTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5NPESW33S2;
+				INFOPLIST_FILE = FirendCircleOfPtotoBrowseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ezreal.feng.com.FirendCircleOfPtotoBrowseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirendCircleOfPtotoBrowse.app/FirendCircleOfPtotoBrowse";
+			};
+			name = Debug;
+		};
+		0E1347A51E0BCB1D007B904F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6036C0083A551B68573265EA /* Pods-FirendCircleOfPtotoBrowseTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5NPESW33S2;
+				INFOPLIST_FILE = FirendCircleOfPtotoBrowseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ezreal.feng.com.FirendCircleOfPtotoBrowseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirendCircleOfPtotoBrowse.app/FirendCircleOfPtotoBrowse";
+			};
+			name = Release;
+		};
+		0E1347A71E0BCB1D007B904F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBB05E8E17B29D36E6C99A63 /* Pods-FirendCircleOfPtotoBrowseUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5NPESW33S2;
+				INFOPLIST_FILE = FirendCircleOfPtotoBrowseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ezreal.feng.com.FirendCircleOfPtotoBrowseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FirendCircleOfPtotoBrowse;
+			};
+			name = Debug;
+		};
+		0E1347A81E0BCB1D007B904F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E7C6E25ED84BE809BF12196 /* Pods-FirendCircleOfPtotoBrowseUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 5NPESW33S2;
+				INFOPLIST_FILE = FirendCircleOfPtotoBrowseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ezreal.feng.com.FirendCircleOfPtotoBrowseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FirendCircleOfPtotoBrowse;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E13476E1E0BCB1C007B904F /* Build configuration list for PBXProject "FirendCircleOfPtotoBrowse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E13479E1E0BCB1D007B904F /* Debug */,
+				0E13479F1E0BCB1D007B904F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E1347A01E0BCB1D007B904F /* Build configuration list for PBXNativeTarget "FirendCircleOfPtotoBrowse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E1347A11E0BCB1D007B904F /* Debug */,
+				0E1347A21E0BCB1D007B904F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E1347A31E0BCB1D007B904F /* Build configuration list for PBXNativeTarget "FirendCircleOfPtotoBrowseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E1347A41E0BCB1D007B904F /* Debug */,
+				0E1347A51E0BCB1D007B904F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E1347A61E0BCB1D007B904F /* Build configuration list for PBXNativeTarget "FirendCircleOfPtotoBrowseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E1347A71E0BCB1D007B904F /* Debug */,
+				0E1347A81E0BCB1D007B904F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E13476B1E0BCB1C007B904F /* Project object */;
+}

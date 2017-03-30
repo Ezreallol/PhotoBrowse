@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>FirendCircleOfPtotoBrowse.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>0E1347721E0BCB1D007B904F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E13478B1E0BCB1D007B904F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0E1347961E0BCB1D007B904F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
